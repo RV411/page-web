@@ -1,0 +1,250 @@
+.navbar{
+    margin-bottom:0;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.jumbotron{
+    margin-top: 75px;
+    background: #202020;
+    COLOR:#FFF;
+    text-align: center;
+    padding: 0 32% 0;
+}
+
+.jumbotron .titulo-blog{    
+    font-size: 85px;
+}
+
+.jumbotron .titulo2-blog{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+body{
+    font-family: 'Staatliches', cursive;
+    background: url(../img/escom.jpg);
+}
+
+header{
+    margin-top: 10px;
+}
+
+#testimonial{
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+} 
+
+footer{
+    width:100%;
+    background: #202020;
+    color:white;
+    padding:2px;
+    margin-top: 200px;
+}
+
+.row3{
+    margin-top: 5px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.row4{
+    display:flex;
+    justify-content:space-around;
+}
+
+.row5{
+    justify-content: space-between;
+}
+
+.container-footer-all{
+    width:100%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.container{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.container2{
+    margin:148px 0 100px 200px;
+    justify-content:space-between;
+}
+
+.container3{
+    position: relative;
+
+    width:auto;
+    height:auto;
+    margin:95px 50px 0 50px;
+    background:none;
+}
+
+.container4{
+    position: relative;
+    width:auto;
+    height:auto;
+    margin:180px 50px 100px 50px;
+}
+
+.container3 .list-image{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.container3 .list-image li{
+    margin-right: 15px;
+    margin-bottom:15px;
+    list-style: none;
+}
+
+.container3 .list-image li .container__image{
+    position: relative;
+    width:250px;
+    height:190px;
+    background: #FFF;
+    border-radius: 3px;
+}
+
+.container3 .list-image li .container__image img{
+    position: relative;
+    width:250px;
+    height:150px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.container3 .list-image li .container__image img .information__image{
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height:40px;
+    background: #c7c7c7;
+    display: flex;
+
+}
+
+.container3 .list-image li .container__image img .information__image .name__image{
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.container4 .list-image{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.container4 .list-image li{
+    margin-right: 15px;
+    margin-bottom:15px;
+    list-style: none;
+}
+
+.container4 .list-image li .container__image{
+    position: relative;
+    width:250px;
+    height:190px;
+    background: #FFF;
+    border-radius: 3px;
+}
+
+.container4 .list-image li .container__image img{
+    position: relative;
+    width:250px;
+    height:150px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.container4 .list-image li .container__image img .information__image{
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height:40px;
+    background: #c7c7c7;
+    display: flex;
+
+}
+
+.container4 .list-image li .container__image img .information__image .name__image{
+    font-family: "Open Sans";
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.column1{
+    max-width:600px;
+}
+
+.column1 h3{
+    font-size:20px;
+}
+
+.row{
+    margin-top: 5px;
+    display:flex;
+}
+
+.row img{
+    width:36px;
+    height:36px;
+}
+
+.row label{
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.column2{
+    max-width:400px;
+}
+
+.column2 h3{
+    font-size: 20px;
+}
+
+.row2{
+    margin-top: 1px;
+    display:flex;
+}
+
+.row2 img{
+    width:36px;
+    height:36px;
+}
+
+.row2 label{
+    margin-top: 5px;
+    margin-left:20px;
+    max-width:150px;
+}
+
+.container-footer{
+    width:100%;
+    background: #101010;
+}
+
+.copyright{
+    color:#c7c7c7;
+}
+
+@media screen and (max-width:1100px){
+    .container{
+        flex-wrap:wrap;
+    }
+
+    .column1,
+    .column2{
+        margin-top:20px;
+    }
+}
